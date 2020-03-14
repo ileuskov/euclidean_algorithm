@@ -17,11 +17,11 @@ public class Main {
         s.close(); // Closing the scanner
 
         //System.out.println);
-        int result = gcd(a, b);
+        int result = gcd(a, b); // Initializing a variable that stores the result of the simple GCD method
 
         System.out.println("The greatest common divisor of the numbers: " + a + " and " + b + " is " + result);
 
-        int result_recursion = gcd_recursion(a, b);
+        int result_recursion = gcd_recursion(a, b); // Initializing a variable that stores the result of the recursion version of the GCD method
 
         System.out.println("*** Recursion version*** \n The greatest common divisor of the numbers: " + a + " and " + b + " is " + result_recursion);
     }
